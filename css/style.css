@@ -1,0 +1,119 @@
+/* --------------------- GENERALES ---------------------*/
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #1d2d44;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.logo {
+  display: flex;
+  margin: 10px;
+  height: 70px;
+}
+.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: #1d2d44;
+  height: auto;
+}
+
+.map {
+  display: flex;
+  padding: 30px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gmail {
+  text-align: center;
+  padding: 10px;
+}
+
+.gmail a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.social-media a img {
+  height: 30px;
+  margin-left: 15px;
+}
+
+/* --------------------- ESTILOS INDEX ---------------------*/
+.banner {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+main {
+  margin: 1px 100px;
+}
+
+/* --------------------- ESTILOS TIENDA ---------------------*/
+
+.container {
+  padding: 10px;
+}
+.row {
+  padding: 10px;
+}
+.row p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.row p::first-line {
+  font-weight: 700;
+}
+.bestsellers {
+  font-weight: bolder;
+}
+.new-in {
+  font-weight: bolder;
+}
+
+/* --------------------- ESTILOS NOSOTROS ---------------------*/
+
+.h2-nosotros {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.about-us {
+  margin: 50px 100px;
+  text-align: center;
+}
+
+.about-us p {
+  padding: 20px;
+  font-size: 20px;
+}
