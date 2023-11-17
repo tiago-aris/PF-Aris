@@ -11,12 +11,132 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: #1d2d44;
+}
+
 img {
   width: 100%;
 }
 
 ul {
   text-decoration: none;
+}
+
+footer {
+  background-color: #1d2d44;
+  height: auto;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gmail {
+  text-align: center;
+  padding: 10px;
+}
+.gmail a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.social-media img {
+  height: 30px;
+  margin-left: 15px;
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
+  height: 70px;
+}
+
+#navbarNavAltMarkup {
+  justify-content: end;
+  font-size: 1.2rem;
+}
+#navbarNavAltMarkup a:hover {
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 30px;
+  color: white;
+}
+
+.bestsellers {
+  font-size: small;
+  font-weight: 600;
+  color: #1d2d44;
+}
+
+.new-in {
+  font-size: small;
+  font-weight: 600;
+  color: #1d2d44;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.container .row {
+  width: 100%;
+}
+.container .row .imgMagazine1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.h2-nosotros {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us {
+  margin: 50px 100px;
+  text-align: center;
+}
+.about-us p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#parrafos {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#parrafos p {
+  margin-top: 15px;
+}
+
+.seccionProductos .container .row {
+  padding: 10px;
+}
+.seccionProductos .container .row p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style2.css.map */
