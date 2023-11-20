@@ -10,16 +10,21 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-color: whitesmoke;
+img {
+  width: 100%;
 }
 
 header {
-  background-color: #1d2d44;
+  background-color: $color-primary;
 }
 
-img {
-  width: 100%;
+body {
+  background-color: $color-secondary;
+}
+
+footer {
+  height: auto;
+  background-color: $color-primary;
 }
 
 ul {

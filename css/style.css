@@ -1,1 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;700;900&display=swap");
+html {
+  font-size: 62.5%;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #1d2d44;
+}
+
+body {
+  background-color: #f9f7f0;
+}
+
+footer {
+  height: auto;
+  background-color: #1d2d44;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gmail {
+  text-align: center;
+  padding: 10px;
+}
+.gmail a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.social-media a {
+  margin-left: 20px;
+}
+.social-media a img {
+  height: 30px;
+}
+
+.navbar-logo {
+  margin-left: 30px;
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
+  height: 70px;
+}
+
+#navbarNavAltMarkup {
+  justify-content: end;
+  font-size: 1.2rem;
+}
+#navbarNavAltMarkup a:hover {
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 30px;
+  color: white;
+}
+
+.bestsellers {
+  font-weight: bolder;
+  color: #1d2d44;
+}
+
+.new-in {
+  font-weight: bolder;
+  color: #1d2d44;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+.container .row {
+  width: 100%;
+}
+.container .row .textMag p {
+  font-weight: 700;
+}
+.container .row .imgMagazine1 img {
+  height: auto;
+  margin-top: 50px;
+}
+
+.h2-nosotros {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us {
+  margin: 50px 100px;
+  text-align: center;
+}
+.about-us p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+#parrafos {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#parrafos p {
+  margin-top: 15px;
+}
+
+.seccionProductos .container .row {
+  padding: 10px;
+}
+.seccionProductos .container .row p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
