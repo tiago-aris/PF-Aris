@@ -1,0 +1,28 @@
+.copyright {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gmail {
+  text-align: center;
+  padding: 10px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  a {
+    margin-left: 20px;
+    img {
+      height: 30px;
+    }
+  }
+}

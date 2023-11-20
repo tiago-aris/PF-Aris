@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+
+  .row {
+    width: 100%;
+
+    .textMag {
+      p {
+        font-weight: 700;
+      }
+    }
+    .imgMagazine1 {
+      img {
+        height: auto;
+        margin-top: 50px;
+      }
+    }
+  }
+}

@@ -1,3 +1,24 @@
+// utilities
+
 @import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/conditionals";
+
+// base
+
 @import "./base/typo";
 @import "./base/reset";
+
+// layout
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/navigation";
+
+// views
+
+@import "./views/colecciones";
+@import "./views/home";
+@import "./views/magazine";
+@import "./views/nosotros";
+@import "./views/tienda";

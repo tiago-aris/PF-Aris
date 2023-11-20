@@ -14,6 +14,19 @@ img {
   width: 100%;
 }
 
+header {
+  background-color: $color-primary;
+}
+
+body {
+  background-color: $color-secondary;
+}
+
+footer {
+  height: auto;
+  background-color: $color-primary;
+}
+
 ul {
   text-decoration: none;
 }
