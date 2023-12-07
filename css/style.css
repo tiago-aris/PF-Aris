@@ -13,13 +13,7 @@ html {
 
 img {
   width: 100%;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
 }
 
 header {
