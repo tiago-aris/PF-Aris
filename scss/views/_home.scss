@@ -1,8 +1,10 @@
-.bestsellers {
-  font-weight: bolder;
-  color: #1d2d44;
+.indexPreOrder {
+  display: flex;
+  margin-bottom: 10rem;
 }
-.new-in {
-  font-weight: bolder;
-  color: #1d2d44;
+
+.preOrder {
+  font-size: $font-l;
+  font-weight: 700;
+  padding-bottom: 30px;
 }

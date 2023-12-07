@@ -1,4 +1,4 @@
-.container {
+.magazine1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,15 +10,14 @@
     width: 100%;
 
     .textMag {
-      p {
-        font-weight: 700;
-      }
-    }
-    .imgMagazine1 {
-      img {
-        height: auto;
-        margin-top: 50px;
-      }
+      margin-top: 15px;
+      font-size: 12px;
+      margin-bottom: 100px;
     }
   }
+}
+
+#imgMag {
+  max-width: 70%;
+  margin-top: 100px;
 }

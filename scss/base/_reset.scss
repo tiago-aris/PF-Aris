@@ -23,10 +23,17 @@ body {
 }
 
 footer {
-  height: auto;
   background-color: $color-primary;
 }
 
 ul {
   text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
