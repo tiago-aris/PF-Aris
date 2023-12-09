@@ -13,7 +13,6 @@ html {
 
 img {
   width: 100%;
-  max-width: 100%;
 }
 
 header {
@@ -104,8 +103,8 @@ ul {
   font-weight: 600;
 }
 
-.QR-spotify {
-  height: 300px;
+.logoSpotify {
+  height: 200px;
   width: auto;
   margin-top: 80px;
   margin-bottom: 200px;
